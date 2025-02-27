@@ -1,8 +1,3 @@
-HumanModCons = HumanModCons or {} -- Đảm bảo HumanModCons tồn tại
-G = G or {} -- Đảm bảo G tồn tại
-G.speed = G.speed or 25 -- Mặc định tốc độ là 25 nếu chưa được đặt
-G.jpower = G.jpower or 50 -- Mặc định JumpPower là 50 nếu chưa được đặt
-
 local speaker = game.Players.LocalPlayer
 local function UpdateCharacter(nChar)
     local Char = nChar or speaker.Character
